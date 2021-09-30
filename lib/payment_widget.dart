@@ -9,9 +9,9 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
 
-String backendUrl = 'https://my-spot-mart.herokuapp.com/';
-String paystackPublicKey = 'pk_live_b09f6b969c2ada70f3232547e8d0e5330abba0e6';
-String secKey = 'sk_live_ec310f3fdd806a12e1b850be38c8f78c29dd6b62';
+
+String paystackPublicKey = 'public_key';
+String secKey = 'sec_key';
 const String appName = 'Paystack Example';
 
 const postUrl = 'https://api.paystack.co/transaction/initialize';
