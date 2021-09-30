@@ -11,8 +11,6 @@ import 'package:scoped_model/scoped_model.dart';
 import 'package:google_api_headers/google_api_headers.dart';
 import 'package:google_maps_webservice/places.dart' as mapServices;
 
-const String publicKey = "FLWPUBK-4837c9ced334002ae4ca39607fa95643-X";
-const String encryptionKey = "d74fee9aabaaf84234b018e4";
 
 class OrderDetails extends StatefulWidget {
   final int amount;
@@ -42,15 +40,14 @@ class _OrderDetailsState extends State<OrderDetails> {
   Mode _mode = Mode.overlay;
   final plugin = PaystackPlugin();
 
-  // String kGoogleApiKey = "AIzaSyAUapqaUPAZV1XpHyxXZlsdzCAY2jKr0ds";
-  String kGoogleApiKey = "AIzaSyA0cxVu_vA4i-GE-I6EB0EcOdGHMomb5VQ";
+  String kGoogleApiKey = "api_key";
 
   bool _serviceEnabled;
 
   @override
   initState() {
     plugin.initialize(
-        publicKey: 'pk_live_b09f6b969c2ada70f3232547e8d0e5330abba0e6');
+        publicKey: 'public_key);
     super.initState();
   }
 
