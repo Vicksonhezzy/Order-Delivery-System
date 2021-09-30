@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "857980610394",
+    "project_id": "metricswallet-dev",
+    "storage_bucket": "metricswallet-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857980610394:android:a49d1da5caaa72ad263563",
+        "android_client_info": {
+          "package_name": "com.example.test_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857980610394-mic3uce7hvkgsek8tsarr2f67eoi4c4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA06-HqI6lKXwwQvd_ExB3Vfj2JSq6hM_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857980610394-mic3uce7hvkgsek8tsarr2f67eoi4c4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
