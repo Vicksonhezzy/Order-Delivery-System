@@ -87,7 +87,7 @@ class _MyLocationState extends State<MyLocation> {
 
   final LatLng initialCameraPosition =
       LatLng(37.42796133580664, -122.085749655962);
-  final String googleAPIKey = 'AIzaSyDlPdbBmY2wrWnZrWPlDXBlxCtbGaz0lPU';
+  final String googleAPIKey = 'API_KEY';
 
   showPinsOnMap() {
     LatLng pinPosition =
